@@ -6,7 +6,7 @@ A powerful system for analyzing SEC filings using natural language queries. This
 
 ### Architecture
 ```
-sec_qa/
+scalar_field/
 ├── src/
 │   ├── data/
 │   │   ├── collector.py      # SEC filing data collection
@@ -51,8 +51,8 @@ sec_qa/
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
-cd sec_qa
+git clone https://github.com/anubhavanand1516/scalar_field.git
+cd scalar_field
 ```
 
 2. Create and activate virtual environment:
@@ -81,33 +81,6 @@ The system provides an interactive interface with:
 2. Filing type selection (10-K/10-Q/8-K/All)
 3. Natural language query input
 4. Organized results by company
-
-### Example Queries
-
-1. Revenue Analysis:
-```
-"What are the primary revenue drivers for major technology companies?"
-```
-
-2. Risk Assessment:
-```
-"What are the most commonly cited risk factors across industries?"
-```
-
-3. Strategic Initiatives:
-```
-"How are companies positioning regarding AI and automation?"
-```
-
-4. Financial Performance:
-```
-"Compare R&D spending trends across companies"
-```
-
-5. Environmental Impact:
-```
-"How do companies describe climate-related risks?"
-```
 
 ## Data Processing Flow
 
@@ -235,17 +208,40 @@ SECDocument(
 4. Custom section identification
 5. Enhanced visualization capabilities
 
-## Contributing
+### Example Queries
 
-1. Fork the repository
-2. Create feature branch
-3. Commit changes
-4. Submit pull request
+1. Revenue Analysis:
+```
+"What are the primary revenue drivers for major technology companies?"
+```
+<img width="1284" height="782" alt="Screenshot 2025-08-05 at 2 55 41 AM" src="https://github.com/user-attachments/assets/b718c78f-6115-4e43-a81a-e95acad383d5" />
 
-## License
 
-[Your License Here]
+2. Risk Assessment:
+```
+"What are the most commonly cited risk factors across industries?"
+```
+<img width="1278" height="718" alt="Screenshot 2025-08-05 at 2 56 09 AM" src="https://github.com/user-attachments/assets/2bb35c83-052c-4460-8a21-b433269eb9c2" />
 
-## Contact
+3. Strategic Initiatives:
+```
+"How are companies positioning regarding AI and automation?"
+```
+<img width="1288" height="648" alt="Screenshot 2025-08-05 at 2 56 32 AM" src="https://github.com/user-attachments/assets/1d518f9c-9c18-4b3e-b1dd-96b5922c641e" />
 
-[Your Contact Information]
+
+4. Financial Performance:
+```
+"Compare R&D spending trends across companies"
+```
+<img width="1279" height="806" alt="Screenshot 2025-08-05 at 2 57 28 AM" src="https://github.com/user-attachments/assets/59994834-ea5d-419f-ba24-46d4cfc77141" />
+
+
+5. Environmental Impact:
+```
+"How do companies describe climate-related risks?"
+```
+<img width="1292" height="689" alt="Screenshot 2025-08-05 at 2 57 56 AM" src="https://github.com/user-attachments/assets/059a8b1d-37a2-42da-bb70-c0a13edf9c69" />
+
+
+
